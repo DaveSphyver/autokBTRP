@@ -40,7 +40,7 @@ ul {
     grid-template-columns: auto auto auto;
     justify-content: left;
     color: rgb(46, 136, 96);
-    padding: 20px;
+    padding: 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     gap: 20px;
 }
@@ -52,6 +52,8 @@ a {
 
 img {
     width: 100%;
+    border: 1px solid rgb(155, 152, 152);
+    border-radius: 5px;
 }
 
 header {
@@ -72,6 +74,9 @@ article {
 
 footer {
     grid-area: f;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(46, 136 ,96);
 }
 
 aside {
